@@ -95,9 +95,15 @@ Dark gold Material 3 UI, glass cards, and readable typography — built for refe
 
 ## Screenshots
 
-| Welcome &amp; search | Entry detail | Citations |
-|:---:|:---:|:---:|
-| ![Welcome screen](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) | ![Entry detail](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) | ![Citations](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) |
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" alt="Welcome screen" width="240" height="533">
+  &nbsp;&nbsp;
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" alt="Entry detail" width="240" height="533">
+  &nbsp;&nbsp;
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" alt="Citations" width="240" height="533">
+</p>
+
+<p align="center"><sub>Welcome &amp; search · Entry detail · Citations</sub></p>
 
 Store listing assets for F-Droid live in [`fastlane/metadata/android/en-US/`](fastlane/metadata/android/en-US/).
 
