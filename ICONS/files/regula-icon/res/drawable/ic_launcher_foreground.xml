@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- gold ring, kept inside the 66dp adaptive-icon safe zone -->
+    <path
+        android:pathData="M90,54 A36,36 0 1,1 18,54 A36,36 0 1,1 90,54"
+        android:strokeColor="#CFA44C"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000" />
+
+    <!-- gold cross -->
+    <path android:pathData="M47.65,23.85 H60.35 V39.00 H75.75 V51.70 H60.35 V84.15 H47.65 V51.70 H32.25 V39.00 H47.65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54" android:startY="23.85"
+                android:endX="54" android:endY="84.15"
+                android:startColor="#F3D98A"
+                android:centerColor="#CFA44C"
+                android:endColor="#A9822F" />
+        </aapt:attr>
+    </path>
+
+</vector>

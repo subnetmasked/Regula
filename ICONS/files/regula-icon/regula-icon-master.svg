@@ -1,0 +1,18 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3d98a"/>
+      <stop offset="50%" stop-color="#cfa44c"/>
+      <stop offset="100%" stop-color="#a9822f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- dark background, full bleed (no pre-rounding — store fronts apply their own mask) -->
+  <rect width="512" height="512" fill="#0A0A0C"/>
+
+  <!-- gold ring border -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="url(#gold)" stroke-width="16"/>
+
+  <!-- gold cross -->
+  <path d="M226,113 H286 V185 H359 V245 H286 V399 H226 V245 H153 V185 H226 Z" fill="url(#gold)"/>
+</svg>

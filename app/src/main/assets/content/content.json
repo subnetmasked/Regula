@@ -1,0 +1,534 @@
+{
+  "contentVersion": 4,
+  "categories": [
+    { "id": "sacraments", "name": "Sacraments & Liturgy", "sortOrder": 1 },
+    { "id": "sexual_ethics", "name": "Sexual Ethics & Marriage", "sortOrder": 2 },
+    { "id": "bioethics", "name": "Bioethics & Life Issues", "sortOrder": 3 },
+    { "id": "daily_moral", "name": "Daily Moral Life", "sortOrder": 4 },
+    { "id": "social_teaching", "name": "Social & Economic Teaching", "sortOrder": 5 },
+    { "id": "prayer", "name": "Prayer & Devotion", "sortOrder": 6 },
+    { "id": "ecclesiology", "name": "Ecclesiology & Authority", "sortOrder": 7 },
+    { "id": "death_afterlife", "name": "Death & Afterlife", "sortOrder": 8 }
+  ],
+  "entries": [
+    {
+      "id": "sacraments_non_catholic_wedding",
+      "categoryId": "sacraments",
+      "question": "Can I attend a non-Catholic wedding or service?",
+      "shortAnswer": "Simply being present as a guest at a non-Catholic wedding or service, out of family loyalty, friendship, or courtesy, is not forbidden and needs no special permission. What is restricted is going beyond mere presence: receiving communion or another sacrament there is governed by strict conditions, and taking an active liturgical role in the rite should be avoided, since it can imply a unity of faith that does not yet exist.",
+      "classification": "discipline",
+      "classificationNote": "The line between permissible presence and restricted sacramental participation is regulated by disciplinary canon law and pastoral norms that have changed over time, not by unchangeable dogma.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1399-1401", "summary": "The Catechism explains the specific conditions under which Eucharistic sharing with Eastern Christians is possible and why ordinary intercommunion with Protestant communities is not, while also allowing the sacraments to be given to other Christians in cases of grave necessity." },
+        { "sourceType": "canon_law", "reference": "844", "summary": "Canon law states that Catholic ministers administer sacraments licitly only to Catholics and Catholics receive them licitly only from Catholic ministers, with narrow, clearly defined exceptions for necessity or spiritual advantage where the danger of indifferentism is avoided." },
+        { "sourceType": "scripture", "reference": "1 Corinthians 10:14-21", "summary": "Paul warns the Corinthians against sharing in both 'the table of the Lord' and pagan cultic tables, grounding the historic Catholic caution around joint participation in the sacred rites of another community, though the passage addresses idol worship rather than fellow Christians directly." }
+      ]
+    },
+    {
+      "id": "sacraments_seal_confession",
+      "categoryId": "sacraments",
+      "question": "Is a priest ever allowed to reveal what is said in confession?",
+      "shortAnswer": "No, never, under any circumstance. The seal of confession is absolute: a priest may not reveal a penitent's sins for any reason whatsoever, including to protect his own life, to prevent a crime, or under order from any civil or church authority. A priest who directly violates the seal incurs automatic excommunication reserved to the Holy See.",
+      "classification": "dogma",
+      "classificationNote": "The absolute inviolability of the seal is treated as belonging to the very nature of the sacrament of penance and admits no exceptions, unlike most disciplinary norms which can be adjusted by competent authority.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1467", "summary": "The Catechism states that every priest who hears confessions is bound under very severe penalties to keep absolute secrecy regarding the sins his penitents have confessed to him, a secret admitting of no exceptions." },
+        { "sourceType": "canon_law", "reference": "983 §1; 1388", "summary": "Canon law declares the sacramental seal inviolable, forbidding a confessor from betraying a penitent in any way for any reason, and separately imposes automatic excommunication reserved to the Apostolic See on a confessor who directly violates it." },
+        { "sourceType": "scripture", "reference": "John 20:22-23", "summary": "Christ's grant to the apostles of authority to forgive sins is the foundational text for the sacrament of confession itself, from which the Church has always understood the absolute confidentiality of what is confessed to flow." }
+      ]
+    },
+    {
+      "id": "sacraments_communion_mortal_sin",
+      "categoryId": "sacraments",
+      "question": "Can I receive Communion if I'm in a state of mortal sin?",
+      "shortAnswer": "No. A person conscious of unconfessed mortal sin must not receive Holy Communion, even if they feel deep contrition, until they have been sacramentally absolved. Receiving Communion in this state does not confer grace and is itself a further grave sin against the sacrament. The only exception is a grave reason with no opportunity to confess, in which case perfect contrition and the resolve to confess as soon as possible are required.",
+      "classification": "doctrine",
+      "classificationNote": "The requirement of being in a state of grace to receive Communion worthily is grounded in the constant doctrine and practice of the Church regarding the Eucharist, given canonical force in current law.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1385; 1457", "summary": "The Catechism instructs the faithful to examine their conscience before receiving Communion and states that anyone aware of mortal sin must not receive it without prior sacramental confession, barring a grave reason and no opportunity to confess." },
+        { "sourceType": "canon_law", "reference": "916", "summary": "Canon law provides that a person conscious of grave sin is not to receive the Body of the Lord without previous sacramental confession unless there is a grave reason and no opportunity to confess, in which case an act of perfect contrition including the resolve to confess is required." },
+        { "sourceType": "scripture", "reference": "1 Corinthians 11:27-29", "summary": "Paul warns that whoever eats the bread or drinks the cup unworthily will be guilty of profaning the body and blood of the Lord, and instructs each person to examine himself before eating, the foundational text for this discipline." }
+      ]
+    },
+    {
+      "id": "sacraments_baptism_necessity",
+      "categoryId": "sacraments",
+      "question": "Is baptism necessary for salvation?",
+      "shortAnswer": "The Church teaches that baptism is necessary for salvation for those to whom the Gospel has been proclaimed and who have had the possibility of asking for it. God is not, however, bound by his own sacraments: those who die desiring baptism but unable to receive it, and those who through no fault of their own do not know Christ but sincerely seek the truth and try to do his will, can be saved by means known to God.",
+      "classification": "doctrine",
+      "classificationNote": "That baptism is the ordinary means of salvation Christ instituted is settled doctrine, while the precise scope of who may be saved without it involves the Church entrusting particular cases to the mercy of God rather than defining them exhaustively.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1257-1261", "summary": "The Catechism affirms baptism's necessity for those who have had the possibility of receiving it, while also teaching baptism of desire for catechumens who die before baptism and entrusting unbaptized children who die to the mercy of God." },
+        { "sourceType": "aquinas", "reference": "ST III Q68 A2", "summary": "Aquinas distinguishes baptism of water from baptism of desire and baptism of blood, arguing that a sincere desire for baptism, even without the physical rite, can supply its effect when the sacrament itself is impossible to receive." },
+        { "sourceType": "scripture", "reference": "John 3:5; Mark 16:16", "summary": "Christ tells Nicodemus that no one can enter the kingdom of God without being born of water and the Spirit, and commands the apostles that whoever believes and is baptized will be saved, the two texts the Catechism cites directly for this teaching." }
+      ]
+    },
+    {
+      "id": "sacraments_holy_days",
+      "categoryId": "sacraments",
+      "question": "What are the holy days of obligation?",
+      "shortAnswer": "Besides Sunday, Catholics are obliged to attend Mass on specific holy days set by universal law and adapted by each bishops' conference. In the United States these are: Mary, Mother of God (Jan 1); the Ascension; the Assumption (Aug 15); All Saints (Nov 1); the Immaculate Conception (Dec 8); and Christmas (Dec 25), with some shifted or abrogated when they fall on a Saturday or Monday.",
+      "classification": "discipline",
+      "classificationNote": "The specific list of holy days is set by each episcopal conference under universal canon law and has been adjusted over time, making it a clear example of changeable ecclesiastical discipline rather than unchangeable doctrine.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2042; 2180-2181", "summary": "The Catechism lists attendance at Mass on Sundays and holy days of obligation among the precepts of the Church, and explains that this precept flows from the third commandment's call to keep holy the Lord's Day." },
+        { "sourceType": "canon_law", "reference": "1246", "summary": "Canon law establishes Sunday and specific other days as holy days of obligation and gives conferences of bishops authority, with Apostolic See approval, to suppress some of them or transfer their observance to a Sunday." },
+        { "sourceType": "scripture", "reference": "Exodus 20:8-10", "summary": "The third commandment's instruction to keep the Sabbath holy is the scriptural root from which the Church's precept to attend Mass on Sundays and other designated feasts developed." }
+      ]
+    },
+    {
+      "id": "sexual_ethics_nfp_vs_contraception",
+      "categoryId": "sexual_ethics",
+      "question": "Is natural family planning morally different from contraception?",
+      "shortAnswer": "Yes. Every marital act must remain open to the transmission of life, and this openness cannot be deliberately suppressed. Contraception is intrinsically wrong because it acts to render a specific act infertile. Periodic abstinence from intercourse during naturally fertile times, for a just reason, does not suppress anything; it simply refrains from acting, which the Church holds is morally different in kind, not just degree.",
+      "classification": "doctrine",
+      "classificationNote": "The moral distinction between periodic abstinence and contraception is ordinary magisterial doctrine on marriage and human sexuality, reaffirmed consistently since Humanae Vitae.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2366-2370", "summary": "The Catechism teaches that each and every marriage act must remain ordered toward procreation, that contraception which renders procreation impossible is intrinsically evil, and that periodic continence based on observing infertile periods conforms to the objective criteria of morality." },
+        { "sourceType": "magisterial", "reference": "Humanae Vitae 11, 14, 16", "summary": "Paul VI taught that each marriage act must remain open to life (11), that any action intended to render procreation impossible is intrinsically wrong (14), and that recourse to infertile periods for just reasons is licit, unlike the use of means that directly prevent conception (16)." },
+        { "sourceType": "scripture", "reference": "Genesis 1:28", "summary": "God's command to the first man and woman to 'be fruitful and multiply' is the foundational text the Church cites for marriage's inherent ordering toward new life." }
+      ]
+    },
+    {
+      "id": "sexual_ethics_masturbation",
+      "categoryId": "sexual_ethics",
+      "question": "Is masturbation a sin?",
+      "shortAnswer": "Yes. The Church teaches that deliberate masturbation is intrinsically and gravely disordered because it deliberately separates sexual pleasure from the marital, procreative, and unitive context in which it belongs. Whether a particular act is a mortal sin also depends on full knowledge and deliberate consent; factors like immaturity, force of habit, or psychological distress can lessen culpability without changing the objective disorder of the act itself.",
+      "classification": "doctrine",
+      "classificationNote": "The objective moral disorder of the act is constant Church teaching, while the Catechism explicitly directs pastoral judgment of individual culpability to take mitigating psychological and developmental factors into account.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2352", "summary": "The Catechism states that masturbation is intrinsically and gravely disordered, while also instructing that affective immaturity, force of acquired habit, anxiety, or other psychological or social factors can lessen moral culpability in forming a pastoral judgment." },
+        { "sourceType": "magisterial", "reference": "Persona Humana 9", "summary": "The 1975 Congregation for the Doctrine of the Faith declaration on sexual ethics, quoted directly by the Catechism, states that both constant magisterial tradition and the moral sense of the faithful have firmly held masturbation to be an intrinsically and gravely disordered act." },
+        { "sourceType": "scripture", "reference": "1 Corinthians 6:18-20", "summary": "Paul's exhortation to flee sexual immorality because the body is a temple of the Holy Spirit underlies the broader Catholic framework for evaluating sexual acts outside the total self-gift of marriage." }
+      ]
+    },
+    {
+      "id": "sexual_ethics_cohabitation",
+      "categoryId": "sexual_ethics",
+      "question": "Is living together before marriage permitted?",
+      "shortAnswer": "Cohabiting as though married, including sexual relations, before the wedding is not permitted, since sexual union belongs properly within the marriage covenant. Sharing a residence for practical reasons without a sexual relationship is a different, prudential question, though the Church encourages engaged couples to consider how arrangements might create an occasion of sin or give scandal.",
+      "classification": "doctrine",
+      "classificationNote": "The underlying principle, that sexual union belongs within marriage, is settled doctrine on chastity; how that principle applies to specific practical living arrangements involves prudential pastoral judgment.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2350-2353", "summary": "The Catechism teaches that engaged couples are called to chastity in continence, reserving the expression of conjugal love for marriage, and lists fornication as gravely contrary to the dignity of persons and human sexuality." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q154 A2", "summary": "Aquinas treats fornication, sexual union between unmarried persons, as a sin against chastity because it fails to provide the stable context of marriage that the good of any children conceived requires." },
+        { "sourceType": "scripture", "reference": "1 Corinthians 7:2, 9; Hebrews 13:4", "summary": "Paul directs that to avoid immorality each man should have his own wife and that it is better to marry than to burn with passion, and the letter to the Hebrews calls the marriage bed to be held in honor and kept undefiled." }
+      ]
+    },
+    {
+      "id": "sexual_ethics_annulment_divorce",
+      "categoryId": "sexual_ethics",
+      "question": "What is the difference between an annulment and a divorce?",
+      "shortAnswer": "A civil divorce dissolves a legally recognized marriage going forward; the Church does not recognize its power to end a valid sacramental marriage. A decree of nullity, commonly called an annulment, is instead a declaration by a Church tribunal that a valid marriage bond never actually came into existence in the first place, due to some impediment, defect of form, or lack of full consent present at the time of the wedding.",
+      "classification": "doctrine",
+      "classificationNote": "The indissolubility of a valid, consummated sacramental marriage is settled doctrine; the tribunal process for investigating whether a bond was validly formed in a specific case is a canonical procedure governed by disciplinary law.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1629; 2382-2386", "summary": "The Catechism explains that consent given under grave defect of discretion of judgment, or under conditions that undermine free and full consent, renders a marriage invalid, and that divorce is a grave offense against natural law since it claims to dissolve what God has joined." },
+        { "sourceType": "canon_law", "reference": "1095-1096; 1141", "summary": "Canon law lists incapacities that render a person unable to validly consent to marriage, and states that a marriage that is ratified and consummated cannot be dissolved by any human power for any reason except death." },
+        { "sourceType": "scripture", "reference": "Matthew 19:6, 9; Mark 10:11-12", "summary": "Christ's teaching that what God has joined together no one must separate, and his description of remarriage after unlawful divorce as adultery, is the direct scriptural foundation for the Church's teaching on the indissolubility of a valid marriage bond." }
+      ]
+    },
+    {
+      "id": "sexual_ethics_ivf",
+      "categoryId": "sexual_ethics",
+      "question": "Is IVF (in vitro fertilization) permitted?",
+      "shortAnswer": "No. The Church teaches that IVF is not permitted, even for a married couple using their own gametes, because it separates procreation from the marital act itself and typically involves the deliberate production of surplus embryos, many of whom are discarded, frozen indefinitely, or used for research. This is distinct from morally acceptable fertility treatments that assist the marital act rather than replace it.",
+      "classification": "doctrine",
+      "classificationNote": "The principle that human procreation belongs within the marital act itself is doctrinal, articulated with particular clarity in response to reproductive technologies that did not exist when earlier magisterial documents on marriage were written.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2377", "summary": "The Catechism teaches that techniques involving only the married couple, such as IVF, dissociate the sexual act from the procreative act and entrust the child's life and identity to the power of doctors and technicians, which is morally unacceptable." },
+        { "sourceType": "magisterial", "reference": "Donum Vitae II.5; Dignitas Personae 12-17", "summary": "The Congregation for the Doctrine of the Faith taught in 1987 that IVF deprives procreation of its proper perfection when it substitutes for the conjugal act, and reaffirmed and extended this teaching in 2008 to newer reproductive technologies, including the moral problem of embryo destruction inherent in most IVF protocols." },
+        { "sourceType": "scripture", "reference": "Genesis 2:24", "summary": "The description of husband and wife becoming 'one flesh' is the foundational text for the Church's teaching that the marital act itself, not a technological substitute for it, is the proper context for new life to be conceived." }
+      ]
+    },
+    {
+      "id": "bioethics_abortion",
+      "categoryId": "bioethics",
+      "question": "Is abortion permitted in any circumstance?",
+      "shortAnswer": "Direct abortion, meaning deliberately ending innocent human life in the womb as an end or a means, is never morally permitted. This is distinct from a medical procedure to treat a serious pathology in the mother (such as an ectopic pregnancy) where the death of the unborn child is a foreseen but unintended side effect rather than the direct goal.",
+      "classification": "dogma",
+      "classificationNote": "The intrinsic immorality of direct abortion belongs to the Church's unchanging moral doctrine on the sanctity of innocent human life, taught with the constancy the Church attributes to the ordinary and universal magisterium.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2270-2275", "summary": "Human life must be respected and protected absolutely from the moment of conception, and direct abortion, willed as an end or a means, is gravely contrary to the moral law." },
+        { "sourceType": "canon_law", "reference": "1397 §2", "summary": "Following the 2021 revision of Book VI of the Code, a person who actually procures an abortion incurs an automatic excommunication; this provision was renumbered from the former canon 1398 but its substance is unchanged." },
+        { "sourceType": "scripture", "reference": "Jeremiah 1:5; Psalm 139:13-16", "summary": "Jeremiah recounts God saying 'before I formed you in the womb I knew you,' and the Psalmist describes being knitted together by God in the womb; these are the traditional scriptural texts the Church points to for the dignity of unborn life, though neither addresses abortion directly." }
+      ]
+    },
+    {
+      "id": "bioethics_euthanasia",
+      "categoryId": "bioethics",
+      "question": "Is euthanasia or assisted suicide ever permitted?",
+      "shortAnswer": "No. Directly and intentionally causing the death of a sick, suffering, or dying person, whether by action or by a deliberate omission, is morally unacceptable regardless of the person's request or the motive of ending suffering. This is distinct from declining burdensome or disproportionate treatment, and from the use of pain relief that may indirectly shorten life as a secondary effect of treating suffering.",
+      "classification": "dogma",
+      "classificationNote": "The Church treats direct euthanasia with the same unchanging moral certainty as direct killing of the innocent generally, distinguishing it clearly from the genuinely open, prudential question of when treatment becomes disproportionate.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2276-2279", "summary": "The Catechism teaches that direct euthanasia, whatever its motives or means, constitutes murder gravely contrary to the dignity of the human person, while also affirming that discontinuing burdensome, extraordinary, or disproportionate treatment can be legitimate." },
+        { "sourceType": "magisterial", "reference": "Evangelium Vitae 65", "summary": "John Paul II confirmed that euthanasia is a grave violation of the law of God, since it is the deliberate and morally unacceptable killing of a human person, and that this teaching is based upon natural law and the written word of God." },
+        { "sourceType": "scripture", "reference": "Exodus 20:13; Job 1:21", "summary": "The fifth commandment's prohibition on killing the innocent grounds the Church's opposition to euthanasia, while Job's acceptance of both blessing and suffering from God's hand ('the Lord gave, and the Lord has taken away') is often cited as a model of receiving suffering rather than seizing control over the moment of death." }
+      ]
+    },
+    {
+      "id": "bioethics_extraordinary_means",
+      "categoryId": "bioethics",
+      "question": "Am I obligated to keep a dying loved one on life support?",
+      "shortAnswer": "No, not always. The Church distinguishes ordinary care, such as food, water, and basic comfort, which must never be withheld, from extraordinary or disproportionate medical treatment, which can be legitimately declined or discontinued when it is excessively burdensome, dangerous, or offers no reasonable hope of benefit relative to its cost and difficulty. This is refusing over-zealous treatment, not causing death.",
+      "classification": "doctrine",
+      "classificationNote": "The principle distinguishing ordinary from extraordinary means is settled doctrine, but applying it to a specific medical situation is a prudential judgment that depends heavily on individual circumstances and requires careful discernment, often with a chaplain or moral theologian.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2278-2279", "summary": "The Catechism teaches that discontinuing burdensome, dangerous, extraordinary, or disproportionate medical procedures can be legitimate, while ordinary care owed to a sick person, including nutrition and hydration in normal circumstances, cannot be legitimately interrupted." },
+        { "sourceType": "magisterial", "reference": "Declaration on Euthanasia (CDF, 1980), IV", "summary": "The Congregation for the Doctrine of the Faith taught that it is permitted to make do with the normal means that medicine can offer and that one is not obliged to use extraordinary or disproportionate means, since this represents acceptance of the human condition rather than a refusal of life." },
+        { "sourceType": "scripture", "reference": "Ecclesiastes 3:1-2", "summary": "The teaching that there is 'a time to be born, and a time to die' is often invoked to support the Church's position that death need not be actively hastened, but also need not be resisted by every conceivable medical means at any cost." }
+      ]
+    },
+    {
+      "id": "bioethics_organ_donation",
+      "categoryId": "bioethics",
+      "question": "Is organ donation permitted?",
+      "shortAnswer": "Yes. Organ donation after death is described by the Church as a noble and meritorious act of generous solidarity, and living donation is permitted when the risk to the donor is proportionate to the good sought for the recipient. Explicit consent by the donor or their proxy is required, and it is never permissible to hasten a donor's death or to remove organs before death has actually occurred.",
+      "classification": "doctrine",
+      "classificationNote": "The moral permissibility and even nobility of organ donation is settled teaching; determining the precise moment of death for the purpose of organ removal remains a matter where the Church defers substantially to careful, honest medical and scientific criteria.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2296", "summary": "The Catechism teaches that organ transplants conform to the moral law when the risk to the donor is proportionate to the good sought, that donation after death is a noble and meritorious act of generous solidarity, and that explicit consent is required." },
+        { "sourceType": "magisterial", "reference": "John Paul II, Address to the Transplantation Society (2000)", "summary": "John Paul II taught that transplants are a great step forward in science's service of man and praised those who, in a truly Christian spirit, offer part of their own body for the health and life of others." },
+        { "sourceType": "scripture", "reference": "John 15:13", "summary": "Christ's words that 'no one has greater love than this, to lay down one's life for one's friends' are frequently applied to the self-gift involved in organ donation, particularly living donation." }
+      ]
+    },
+    {
+      "id": "bioethics_vaccines",
+      "categoryId": "bioethics",
+      "question": "Are vaccines developed using fetal cell lines permitted?",
+      "shortAnswer": "Yes, with important distinctions. Using cell lines derived decades ago from cells taken from aborted fetuses does not involve formal cooperation in the original abortion, and the Church has taught it is morally acceptable, indeed can be a matter of responsible charity toward public health, to receive such vaccines when no ethically produced alternative is available. Catholics may still licitly express conscientious objection and should press manufacturers to develop alternatives.",
+      "classification": "theological_opinion",
+      "classificationNote": "While the underlying moral principles about cooperation with past evil are settled doctrine, the practical judgment about specific vaccines involves weighing degrees of remote material cooperation and proportionate reasons, which the Church has explicitly left to individual conscience and prudential judgment rather than a single binding rule.",
+      "citations": [
+        { "sourceType": "magisterial", "reference": "CDF, Note on the Morality of Using Some Anti-Covid-19 Vaccines (2020)", "summary": "The Congregation for the Doctrine of the Faith affirmed that it is morally acceptable to receive vaccines using cell lines from aborted fetuses when they were derived decades ago, involve only remote and passive material cooperation, and no ethically irreproachable alternative is available." },
+        { "sourceType": "magisterial", "reference": "Pontifical Academy for Life, Moral Reflections on Vaccines (2005; 2017)", "summary": "The Pontifical Academy for Life concluded there is a grave responsibility to use alternative vaccines when they exist, but that using existing vaccines derived from historical fetal cell lines is justified by a proportionate reason, namely protecting the health of children and the population, given the remoteness of the cooperation involved." },
+        { "sourceType": "scripture", "reference": "1 Corinthians 8:9-13", "summary": "Paul's discussion of eating meat sacrificed to idols, weighing personal liberty against conscience and the good of others, offers an analogous scriptural framework for reasoning about remote cooperation with a past wrong for the sake of a genuine present good." }
+      ]
+    },
+    {
+      "id": "daily_moral_drunkenness",
+      "categoryId": "daily_moral",
+      "question": "Is it a sin to get drunk?",
+      "shortAnswer": "Deliberate intoxication that deprives a person of the use of reason is gravely wrong. Moderate use of alcohol is not in itself sinful, but drunkenness violates the virtue of temperance and can lead to further sin by impairing judgment.",
+      "classification": "doctrine",
+      "classificationNote": "Temperance regarding alcohol belongs to fundamental moral theology on virtue and the fifth commandment's call to respect human dignity, including one's own.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2290-2291", "summary": "The virtue of temperance disposes a person to avoid excess in food, alcohol, tobacco, or medicine, and those who endanger their own or others' safety through drunkenness incur grave guilt." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q150 A1", "summary": "Aquinas asks directly whether drunkenness is a sin and concludes that it is, because a person who knowingly drinks to the point of losing the use of reason wills, at least indirectly, the loss of that reason, which is what makes the act culpable rather than merely unfortunate." },
+        { "sourceType": "scripture", "reference": "Ephesians 5:18", "summary": "Paul instructs, 'do not get drunk on wine, which leads to debauchery,' contrasting it with being filled with the Holy Spirit." }
+      ]
+    },
+    {
+      "id": "daily_moral_lying",
+      "categoryId": "daily_moral",
+      "question": "Is lying ever morally permitted?",
+      "shortAnswer": "A lie is speaking falsehood with the intention to deceive. The Church teaches that lying is intrinsically wrong. This is distinct from withholding truth from someone who has no right to know it, and from mental reservation used carefully in situations of grave danger, both of which involve not speaking rather than speaking falsely.",
+      "classification": "doctrine",
+      "classificationNote": "The immorality of lying as a violation of truth-telling is standard moral theology, though casuistry on disclosure and duress requires careful prudential judgment that theologians have long debated.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2482-2487", "summary": "The Catechism defines a lie as speaking falsehood with the intention of deceiving, treats it as the most direct offense against truth, and explains that its gravity is measured by the harm done and the nature of the truth it distorts." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q110 A3", "summary": "Aquinas asks directly whether every lie is a sin and answers yes, because a lie is an act contrary to a virtue, truthfulness, and is therefore evil in its object regardless of the liar's further intention, though the gravity of that sin still varies with circumstances." },
+        { "sourceType": "scripture", "reference": "John 8:44; Exodus 20:16", "summary": "The Catechism itself footnotes Christ's description of the devil as 'a liar and the father of lies' when defining lying at CCC 2482, and the eighth commandment's prohibition on bearing false witness is the broader scriptural root of the Church's teaching on truthfulness." }
+      ]
+    },
+    {
+      "id": "daily_moral_gambling",
+      "categoryId": "daily_moral",
+      "question": "Is gambling a sin?",
+      "shortAnswer": "Games of chance and wagers are not in themselves contrary to justice. They become morally unacceptable when they deprive a person of what is needed to provide for himself or his family, and the passion for gambling risks becoming an enslaving vice. Cheating or unfair wagers are separately a matter of grave injustice.",
+      "classification": "doctrine",
+      "classificationNote": "The basic moral neutrality of games of chance, combined with the sinfulness of gambling that becomes reckless or enslaving, is settled Church teaching under the seventh commandment on justice and the virtue of temperance.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2413", "summary": "The Catechism teaches that games of chance or wagers are not in themselves contrary to justice, but become morally unacceptable when they deprive someone of what is necessary to provide for his needs and those of others, and that the passion for gambling risks becoming an enslavement." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q32 A7", "summary": "Aquinas, discussing almsgiving and the use of one's goods, argues elsewhere that a person sins gravely against justice toward his dependents if he squanders what is needed for their support, a principle later applied by moral theologians directly to gambling losses." },
+        { "sourceType": "scripture", "reference": "1 Timothy 6:9-10", "summary": "Paul's warning that those eager to be rich fall into temptation and that the love of money is a root of many evils is the classic scriptural text applied to the disordered pursuit of gain through gambling." }
+      ]
+    },
+    {
+      "id": "daily_moral_modesty",
+      "categoryId": "daily_moral",
+      "question": "What does the Church teach about modesty in dress?",
+      "shortAnswer": "Modesty, part of the virtue of temperance, protects the dignity of the person and guides how one dresses and presents oneself with decency and reserve. Its concrete forms vary by culture, but its purpose everywhere is the same: to guard the intimate center of the person against being reduced to an object, and to resist a permissive climate that treats the body as merely a means to attention or pleasure.",
+      "classification": "doctrine",
+      "classificationNote": "That modesty is a genuine virtue rooted in human dignity is settled doctrine, while its specific cultural expression in clothing and behavior is explicitly acknowledged by the Catechism to vary and to require prudential judgment.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2521-2524", "summary": "The Catechism teaches that modesty protects the intimate center of the person, inspires one's choice of clothing, and takes different concrete forms across cultures, while everywhere expressing an intuition of the spiritual dignity of the human person." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q169 A2", "summary": "Aquinas treats outward apparel and adornment as capable of sin when adopted with inordinate desire for display or when contrary to the custom of one's state in life, situating clothing within the broader virtue of temperance rather than treating any single style as inherently sinful." },
+        { "sourceType": "scripture", "reference": "1 Timothy 2:9-10", "summary": "Paul's instruction that women should adorn themselves with modesty and decency, in keeping with good deeds rather than costly display, is the classic New Testament text underlying Catholic teaching on modest dress." }
+      ]
+    },
+    {
+      "id": "daily_moral_tattoos",
+      "categoryId": "daily_moral",
+      "question": "Are tattoos or body modification sinful?",
+      "shortAnswer": "There is no specific magisterial ruling against tattoos as such. The Church's general principle is that the body is a gift from God to be treated with respect, so tattoos and other body modifications are morally evaluated by their content, motive, and degree, not forbidden outright: a tattoo of something obscene, occult, or hateful would be wrong, while most other cases are a matter of legitimate personal freedom and prudential judgment rather than settled Church law.",
+      "classification": "theological_opinion",
+      "classificationNote": "This is a case where the Church applies broader principles about respect for the body rather than offering a specific ruling, so most conclusions here are theologians' prudential applications rather than defined doctrine.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "364; 2288-2289", "summary": "The Catechism teaches that the human body shares in the dignity of the image of God and that life and physical health are precious gifts entrusted to us for which we must take reasonable care, without directly addressing tattooing." },
+        { "sourceType": "scripture", "reference": "Leviticus 19:28; 1 Corinthians 6:19-20", "summary": "The Old Testament law against cutting or marking the body for pagan mourning rites is not treated by Catholic moral theology as binding under the New Covenant, but Paul's teaching that the body is a temple of the Holy Spirit to be glorified is often invoked as the relevant New Testament principle for evaluating body modification today." }
+      ]
+    },
+    {
+      "id": "social_teaching_death_penalty",
+      "categoryId": "social_teaching",
+      "question": "What does the Church teach about the death penalty?",
+      "shortAnswer": "As of the 2018 revision of the Catechism, the Church teaches plainly that the death penalty is inadmissible because it is an attack on the inviolability and dignity of the person, even in cases of very serious crimes, and the Church works for its abolition worldwide. This represents a development from earlier teaching, which held that recourse to the death penalty could be justified only when it was the sole effective way to defend human lives, cases St. John Paul II described as practically nonexistent given modern means of detention.",
+      "classification": "doctrine",
+      "classificationNote": "This is a doctrinal development on the dignity of the person and the limits of state punishment, explicitly framed by the Church as continuous with prior teaching rather than a reversal of dogma.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2267", "summary": "In its current form, revised by Pope Francis in 2018, this paragraph states that the death penalty is inadmissible because it is an attack on the inviolability and dignity of the person, replacing the prior text's narrower 'practically nonexistent' standard." },
+        { "sourceType": "magisterial", "reference": "Evangelium Vitae 56", "summary": "John Paul II taught that punishment must be corrective where possible and that modern states can protect society without recourse to execution, describing cases of absolute necessity for the death penalty as 'very rare, if not practically nonexistent.'" },
+        { "sourceType": "scripture", "reference": "Genesis 9:6; Romans 13:4", "summary": "Genesis grounds the state's authority over grave crimes against life, and Paul describes civil authority as not bearing 'the sword' in vain; these texts underlie the Church's traditional affirmation that the state has genuine authority to punish, even as she now judges that authority should not extend to execution in practice." }
+      ]
+    },
+    {
+      "id": "social_teaching_just_war",
+      "categoryId": "social_teaching",
+      "question": "When is war morally justified?",
+      "shortAnswer": "Legitimate defense by military force requires all of the following to be true at once: the damage from the aggressor must be lasting, grave, and certain; all other means of stopping it must be shown impractical or ineffective; there must be serious prospects of success; and the use of arms must not produce evils graver than the evil to be eliminated. Evaluating whether a specific conflict meets these conditions belongs to the prudential judgment of those responsible for the common good.",
+      "classification": "doctrine",
+      "classificationNote": "The just war criteria themselves are settled doctrine drawn from a long tradition going back to Augustine and Aquinas, but their application to any specific war is a prudential judgment on which faithful Catholics, including bishops, can and do disagree.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2309", "summary": "The Catechism lists the four traditional just war conditions and states that evaluating whether they are met in a given case belongs to the prudential judgment of those who hold responsibility for the common good." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q40 A1", "summary": "Aquinas first systematized the conditions for a just war into three requirements, the authority of the sovereign under whom it is waged, a just cause, and a rightful intention, forming the basis the Catechism's later, more developed criteria build upon." },
+        { "sourceType": "scripture", "reference": "Matthew 5:9; Romans 13:4", "summary": "Christ's beatitude blessing peacemakers stands alongside Paul's teaching that civil authority does not bear the sword in vain, texts the tradition holds in tension when reasoning about the legitimacy of defensive force." }
+      ]
+    },
+    {
+      "id": "social_teaching_immigration",
+      "categoryId": "social_teaching",
+      "question": "What does the Church teach about immigration?",
+      "shortAnswer": "More prosperous nations are obliged, to the extent they are able, to welcome foreigners seeking security and livelihood they cannot find at home, and public authorities must protect the natural right that places a guest under the protection of those who receive him. At the same time, political authorities may, for the sake of the common good, subject immigration to just legal conditions, and immigrants in turn owe respect and gratitude to the laws and heritage of their new country.",
+      "classification": "doctrine",
+      "classificationNote": "The underlying principles, the right to migrate and a nation's right to regulate its borders for the common good, are both settled Catholic social doctrine; how to balance them in any specific national policy is a matter of prudential judgment the Church leaves open.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2241", "summary": "The Catechism teaches that prosperous nations are obliged to welcome foreigners seeking security and livelihood to the extent they are able, that political authorities may make immigration subject to juridical conditions for the common good, and that immigrants must respect the laws of their host country." },
+        { "sourceType": "magisterial", "reference": "Fratelli Tutti 129", "summary": "Pope Francis taught that the right not to emigrate must be guaranteed, meaning the right to find in one's own homeland the conditions needed to flourish, while also acknowledging that reception of migrants must be planned and carried out prudently, in dialogue with local communities." },
+        { "sourceType": "scripture", "reference": "Leviticus 19:33-34; Matthew 25:35", "summary": "The Mosaic law's command to love the stranger residing among you as yourself, and Christ's identification of himself with the stranger who is welcomed, are the foundational texts underlying the Church's teaching on hospitality toward migrants." }
+      ]
+    },
+    {
+      "id": "social_teaching_voting",
+      "categoryId": "social_teaching",
+      "question": "Can I vote for a candidate who supports abortion?",
+      "shortAnswer": "A Catholic may never vote for a candidate specifically because of their support for abortion; that would be formal cooperation in grave evil. However, when no available candidate opposes intrinsic evils like abortion, a Catholic may in good conscience vote for a candidate for other truly grave moral reasons, provided support for the evil position is not the reason for the vote. This is remote material cooperation, permitted only for proportionately serious reasons.",
+      "classification": "doctrine",
+      "classificationNote": "The underlying distinction between formal and material cooperation with evil is settled moral doctrine; how it applies to any specific election, with its mix of candidates and issues, requires prudential judgment the Church deliberately leaves to the individual conscience of the voter.",
+      "citations": [
+        { "sourceType": "magisterial", "reference": "Evangelium Vitae 73", "summary": "John Paul II taught that a legislator's vote in favor of a more restrictive law limiting the harm of an already-existing unjust law can be a legitimate act of opposing that evil rather than illicit cooperation with it, a principle moral theologians extend by analogy to ordinary voters facing imperfect choices." },
+        { "sourceType": "magisterial", "reference": "USCCB, Forming Consciences for Faithful Citizenship, 34-37", "summary": "The U.S. bishops teach that Catholics should not vote for a candidate who favors a policy promoting an intrinsic evil such as abortion if the voter's intent is to support that position, but may vote for such a candidate for other grave moral reasons, provided they do not intend to support the intrinsically evil position." },
+        { "sourceType": "scripture", "reference": "Romans 13:1-2", "summary": "Paul's teaching that governing authorities have been instituted by God underlies the Church's insistence that political participation is a genuine moral responsibility, not a matter of indifference." }
+      ]
+    },
+    {
+      "id": "social_teaching_usury",
+      "categoryId": "social_teaching",
+      "question": "What does the Church teach about usury and interest on loans?",
+      "shortAnswer": "The Church has always condemned usury, defined not simply as 'charging any interest' but as demanding a return on something, like an old-economy loan, that by its nature produces nothing, without work, expense, or risk on the lender's part. As the nature of money changed with the rise of productive investment and competitive markets, the Church came to recognize that a moderate return on capital genuinely put to productive use is not usurious in the way it once was; exploiting the poor or desperate through excessive interest remains gravely wrong.",
+      "classification": "doctrine",
+      "classificationNote": "This is a clear example of doctrinal continuity applied to changed economic circumstances rather than a reversal: the underlying condemnation of exploitative, unearned profit has never changed, even as the application shifted once money itself became a productive economic tool rather than a barren store of value.",
+      "citations": [
+        { "sourceType": "magisterial", "reference": "Fifth Lateran Council, Session X (1515)", "summary": "The Council defined usury precisely as applying something that produces nothing to the acquisition of gain and profit without any work, expense, or risk, a definition narrower than simply charging interest on any loan." },
+        { "sourceType": "magisterial", "reference": "Vix Pervenit (Benedict XIV, 1745)", "summary": "Benedict XIV's encyclical condemned demanding more than was loaned as intrinsically usurious, while explicitly acknowledging that legitimate titles distinct from the loan contract itself, such as investment and risk-sharing, can justify a moderate return." },
+        { "sourceType": "scripture", "reference": "Deuteronomy 23:19-20; Luke 6:34-35", "summary": "The Mosaic law forbade charging interest to a fellow Israelite in need, and Christ instructs his disciples to lend expecting nothing back, texts that ground the Church's enduring concern that lending not be used to exploit the vulnerable." }
+      ]
+    },
+    {
+      "id": "prayer_indulgences",
+      "categoryId": "prayer",
+      "question": "What are indulgences?",
+      "shortAnswer": "An indulgence is a remission before God of the temporal punishment due to sins whose guilt is already forgiven. It is granted through the Church's application of the treasury of merit of Christ and the saints when the faithful fulfill prescribed conditions with the proper disposition.",
+      "classification": "doctrine",
+      "classificationNote": "The theology of indulgences is magisterial teaching on sin, satisfaction, and the communion of saints, drawing on the Church's power to bind and loose rather than being a directly revealed dogma in the strictest sense.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1471-1479", "summary": "Indulgences remit the temporal punishment due to forgiven sin through the Church's application of the merits of Christ and the saints, and require the faithful to fulfill defined conditions including confession, Communion, prayer for the pope's intentions, and detachment from sin." },
+        { "sourceType": "canon_law", "reference": "992", "summary": "Canon law defines an indulgence as the remission before God of temporal punishment for sins whose guilt is already forgiven, obtained with the help of the Church acting as minister of redemption." },
+        { "sourceType": "scripture", "reference": "Matthew 16:19; 18:18; 2 Corinthians 2:5-11", "summary": "Christ's grant of binding and loosing authority to Peter and the apostles is the foundational text for the Church's power over the punishment due to sin, and Paul's instruction to forgive and comfort a repentant sinner in Corinth is read as an early exercise of remitting punishment on the Church's authority." }
+      ]
+    },
+    {
+      "id": "prayer_saints",
+      "categoryId": "prayer",
+      "question": "Isn't praying to saints a form of idolatry?",
+      "shortAnswer": "No. Catholics do not worship saints; worship (latria) is owed to God alone. Asking a saint to pray for you is the same act as asking a friend on earth to pray for you, the only difference being that the saint is already united with Christ in heaven. The honor given to saints (dulia) is entirely different in kind from the adoration given to God.",
+      "classification": "doctrine",
+      "classificationNote": "The distinction between worship due to God alone and honor given to the saints is settled doctrine dating to the earliest controversies over the veneration of images and martyrs.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "956; 2683", "summary": "The Catechism teaches that the saints in heaven, being more closely united to Christ, do not cease to intercede for us and offer our prayers through Christ to God, and that the witnesses who have preceded us into the kingdom, especially those the Church recognizes as saints, share in living Tradition through prayer." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q103 A3", "summary": "Aquinas distinguishes latria, the worship owed to God alone, from dulia, the honor owed to creatures of excellence such as the saints, explaining that asking a saint's intercession no more constitutes worship of the saint than asking a living person to pray for you." },
+        { "sourceType": "scripture", "reference": "Hebrews 12:1; Revelation 5:8", "summary": "The image of a 'great cloud of witnesses' surrounding believers and the vision of the prayers of the saints rising before God as incense are the scriptural texts most often cited for the Church's understanding that the saints in heaven remain actively engaged in prayer for the living." }
+      ]
+    },
+    {
+      "id": "prayer_private_revelation",
+      "categoryId": "prayer",
+      "question": "How should I evaluate claimed private revelations or apparitions?",
+      "shortAnswer": "Private revelations, even ones the Church has formally approved such as Lourdes or Fatima, do not belong to the deposit of faith and can never add to or improve public Revelation, which was completed with the death of the last apostle. Approval by the Church means only that the message contains nothing contrary to faith and morals and that the faithful may licitly give it human, not divine, assent; Catholics are never obliged to believe in any private revelation.",
+      "classification": "doctrine",
+      "classificationNote": "This is settled doctrine about the completeness of public Revelation and the proper, subordinate status of private revelation, which protects the faithful from treating any apparition, however credible, as equivalent to the deposit of faith.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "66-67", "summary": "The Catechism teaches that public Revelation was definitively complete with Christ and requires no further revelation, and that private revelations, even Church-approved ones, do not belong to the deposit of faith and are not to be confused with it, since their role is to help live more fully by the one definitive Revelation in a certain period of history." },
+        { "sourceType": "magisterial", "reference": "Norms of the CDF for Discerning Presumed Apparitions (1978)", "summary": "The Congregation for the Doctrine of the Faith set out criteria bishops must use to evaluate claimed apparitions, including the conformity of the message with faith and morals, the psychological soundness of the visionary, and the absence of financial exploitation." },
+        { "sourceType": "scripture", "reference": "1 Thessalonians 5:19-21", "summary": "Paul's instruction not to quench the Spirit or despise prophecies, but to test everything and hold fast to what is good, is the classic biblical text underlying the Church's balanced approach of neither dismissing nor uncritically accepting claimed private revelations." }
+      ]
+    },
+    {
+      "id": "prayer_relics_images",
+      "categoryId": "prayer",
+      "question": "Is veneration of relics and sacred images superstition?",
+      "shortAnswer": "No. The Church distinguishes the honor given to a relic or image, which passes to the person it represents, from worship, which belongs to God alone. Venerating a saint's relics or an icon of Christ is not treating the object as itself divine; it is a physical expression of honor for the person the object recalls, rooted in the Christian conviction that matter itself was sanctified when the Word became flesh.",
+      "classification": "doctrine",
+      "classificationNote": "This doctrine was defined with particular clarity at the Second Council of Nicaea in response to the iconoclast controversy and remains settled Church teaching, distinct from any individual devotional practice that might drift into genuine superstition.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1674; 2129-2132", "summary": "The Catechism teaches that popular piety, including devotion to relics, expresses a religious sense that can be evangelized, and that the honor paid to a sacred image passes to its prototype, so whoever venerates an image venerates the person it represents, not the physical object." },
+        { "sourceType": "magisterial", "reference": "Second Council of Nicaea (787)", "summary": "The Seventh Ecumenical Council defined that the veneration given to icons is relative honor directed to the person depicted, not the adoration due to God alone, settling the iconoclast controversy definitively for the universal Church." },
+        { "sourceType": "scripture", "reference": "Acts 19:11-12; 2 Kings 13:21", "summary": "The healing power attributed to cloths that had touched Paul, and the account of a dead man restored to life on contact with the bones of the prophet Elisha, are the scriptural precedents the Church cites for the possibility of grace being associated with physical relics." }
+      ]
+    },
+    {
+      "id": "prayer_with_non_catholics",
+      "categoryId": "prayer",
+      "question": "Can I pray together with non-Catholic Christians?",
+      "shortAnswer": "Yes, common prayer with other Christians is generally encouraged as part of the Church's commitment to ecumenism, provided it does not involve joint celebration of the sacraments in a way restricted by canon law. Shared prayer services, praying the Our Father together, or joining in intercession are all appropriate expressions of the real, if imperfect, communion Catholics already share with other baptized Christians.",
+      "classification": "discipline",
+      "classificationNote": "The encouragement of common prayer is a pastoral and disciplinary application of ecumenical principles that has developed significantly since Vatican II, distinct from the stricter, more settled rules governing actual sacramental sharing.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "821", "summary": "The Catechism lists common prayer among the practical ways ecumenism is pursued, alongside dialogue and collaboration in service of humanity, as part of the Church's ongoing work toward the restoration of full Christian unity." },
+        { "sourceType": "magisterial", "reference": "Unitatis Redintegratio 8", "summary": "The Second Vatican Council's decree on ecumenism affirmed that common worship (communicatio in sacris) is not to be used indiscriminately as a means to restore unity, but that common prayer for unity itself, and prayer in common more broadly, is warmly recommended." },
+        { "sourceType": "scripture", "reference": "John 17:21", "summary": "Christ's prayer 'that they may all be one' at the Last Supper is the scriptural foundation for the entire modern Catholic commitment to ecumenism, including shared prayer with other Christians." }
+      ]
+    },
+    {
+      "id": "ecclesiology_pope_teaching_wrong",
+      "categoryId": "ecclesiology",
+      "question": "What happens if a pope teaches something wrong?",
+      "shortAnswer": "Popes can err in personal opinions, prudential judgments, or non-infallible teaching. Papal infallibility applies only under narrow, defined conditions. Outside those conditions, Catholics owe religious submission of mind and will to authentic ordinary teaching, but that is a different and lesser degree of assent than what is owed to a solemn, definitive definition, and it does not require accepting a teaching that contradicts settled doctrine.",
+      "classification": "doctrine",
+      "classificationNote": "The distinction between infallible and non-infallible papal teaching, and the corresponding degrees of assent owed to each, is doctrinal ecclesiology on the scope and limits of the papal office.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "891-892", "summary": "The Catechism specifies that the Pope enjoys infallibility only when, as supreme pastor, he proclaims by a definitive act a doctrine on faith or morals, while his ordinary, non-definitive teaching calls for religious submission of mind and will, a distinct and lesser assent than the assent of faith." },
+        { "sourceType": "magisterial", "reference": "Pastor Aeternus (Vatican I, 1870)", "summary": "The First Vatican Council defined papal infallibility strictly for ex cathedra pronouncements on faith and morals intended to bind the whole Church, implying by its careful wording that not every papal statement carries that charism." },
+        { "sourceType": "scripture", "reference": "Matthew 16:18-19; Luke 22:32; Galatians 2:11-14", "summary": "Christ's promise to build his Church on Peter and his prayer that Peter's faith not fail are the foundational texts for the papal office, while Paul's account of publicly opposing Peter's conduct at Antioch is the classic scriptural example that a pope's personal judgment or behavior can still be mistaken and correctable." }
+      ]
+    },
+    {
+      "id": "ecclesiology_excommunication",
+      "categoryId": "ecclesiology",
+      "question": "What is excommunication, and how does someone incur it?",
+      "shortAnswer": "Excommunication is the most severe censure in canon law, barring a person from the sacraments and from exercising any ministry in the Church, though it does not remove them from the Church entirely; it is meant to be medicinal, prompting repentance and restoration. Some grave offenses, like heresy or procuring an abortion, carry automatic (latae sententiae) excommunication the moment they are committed with full knowledge and consent; others are imposed only after a formal judgment by Church authority (ferendae sententiae).",
+      "classification": "discipline",
+      "classificationNote": "Excommunication and its specific triggering offenses are matters of ecclesiastical penal law, which the Church has revised over time, most recently in 2021, and is therefore disciplinary rather than dogmatic.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1463", "summary": "The Catechism explains that certain especially grave sins incur excommunication, the most severe ecclesiastical penalty, which impedes the reception of the sacraments and the exercise of certain ecclesiastical acts, and can be remitted only under conditions defined by Church law." },
+        { "sourceType": "canon_law", "reference": "1331; 1364", "summary": "Canon law lists the specific effects of excommunication, including prohibition from celebrating or receiving the sacraments, and separately provides that apostasy, heresy, and schism each incur automatic excommunication." },
+        { "sourceType": "scripture", "reference": "Matthew 18:15-17; 1 Corinthians 5:1-5", "summary": "Christ's instruction to treat an unrepentant sinner who refuses correction 'as a Gentile and a tax collector,' and Paul's directive to expel a grave and public sinner from the Corinthian community, are the scriptural roots of the Church's practice of formally excluding someone from communion for the sake of their eventual repentance." }
+      ]
+    },
+    {
+      "id": "ecclesiology_schism_heresy",
+      "categoryId": "ecclesiology",
+      "question": "What is the difference between heresy, schism, and apostasy?",
+      "shortAnswer": "Heresy is the obstinate denial or doubt, after baptism, of a truth that must be believed with divine and Catholic faith. Apostasy is the total repudiation of the Christian faith itself. Schism is refusing submission to the Pope or communion with the members of the Church subject to him, without necessarily denying any specific doctrine. All three, when committed knowingly and freely, carry automatic excommunication.",
+      "classification": "doctrine",
+      "classificationNote": "These are precise canonical and doctrinal definitions with real consequences, though the Church also carefully distinguishes objective material error from culpable formal guilt, recognizing that many outside the Church hold their positions in good faith through no fault of their own.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2089", "summary": "The Catechism defines heresy, apostasy, and schism using language drawn directly from canon law, situating them under the broader heading of sins against the theological virtue of faith." },
+        { "sourceType": "canon_law", "reference": "751; 1364", "summary": "Canon law provides the precise definitions of heresy, apostasy, and schism, and states that anyone who commits one of these offenses incurs automatic excommunication, with clerics subject to additional penalties." },
+        { "sourceType": "scripture", "reference": "1 John 2:19; Titus 3:10-11", "summary": "John's description of those who left the community as never having truly belonged, and Paul's instruction to Titus to warn a divisive person twice before having nothing more to do with him, are early scriptural texts addressing departure from and division within the community of faith." }
+      ]
+    },
+    {
+      "id": "ecclesiology_apostolic_succession",
+      "categoryId": "ecclesiology",
+      "question": "What is apostolic succession, and why does it matter?",
+      "shortAnswer": "Apostolic succession is the unbroken chain of episcopal ordination linking every validly ordained bishop today back to the apostles themselves, through a valid line of consecrations. It matters because the Church holds that the sacraments of Holy Orders and, in a special way, the Eucharist depend on this unbroken chain, which is why the Church recognizes valid Eastern Orthodox orders and sacraments but regards most Protestant ministries as lacking the sacrament of Holy Orders in the full sense.",
+      "classification": "doctrine",
+      "classificationNote": "The necessity of apostolic succession for the valid transmission of episcopal and priestly ministry is settled doctrine central to the Church's self-understanding, grounding her judgments about the validity of sacraments in other Christian communities.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "77; 861-862", "summary": "The Catechism teaches that in order for the Gospel to be preserved whole and living, the apostles left bishops as their successors, giving them their own position of teaching authority, and that this living transmission is called Apostolic Tradition, distinct from but bound to Scripture." },
+        { "sourceType": "magisterial", "reference": "Lumen Gentium 20", "summary": "The Second Vatican Council taught that bishops, by divine institution, have succeeded to the place of the apostles as pastors of the Church, so that whoever hears them hears Christ and whoever rejects them rejects Christ." },
+        { "sourceType": "scripture", "reference": "Acts 1:20-26; 2 Timothy 1:6", "summary": "The apostles' selection of Matthias to fill the vacant place among the Twelve, and Paul's instruction to Timothy to 'rekindle the gift of God' conferred through the laying on of his hands, are the scriptural texts the Church points to for the earliest practice of passing on apostolic ministry through ordination." }
+      ]
+    },
+    {
+      "id": "ecclesiology_pope_resign",
+      "categoryId": "ecclesiology",
+      "question": "Can a pope resign?",
+      "shortAnswer": "Yes. Canon law explicitly provides for papal resignation, requiring only that it be made freely and properly manifested, with no one's acceptance needed for it to take effect. This has happened rarely in history, most recently when Benedict XVI resigned in 2013, the first pope to do so since Gregory XII in 1415.",
+      "classification": "discipline",
+      "classificationNote": "Papal resignation is a straightforward matter of positive canon law rather than doctrine, and the Code itself notes that no further formal norms govern exactly how or to whom the resignation must be manifested.",
+      "citations": [
+        { "sourceType": "canon_law", "reference": "332 §2", "summary": "Canon law states that if the Roman Pontiff resigns his office, validity requires only that the resignation be made freely and properly manifested, and does not require that it be accepted by anyone." },
+        { "sourceType": "magisterial", "reference": "Benedict XVI, Declaratio (2013)", "summary": "In his formal declaration of resignation, Benedict XVI stated that after examining his conscience before God he had come to the certainty that his strength, due to advanced age, was no longer suited to adequately fulfill the Petrine ministry, and freely resigned the office effective February 28, 2013." },
+        { "sourceType": "scripture", "reference": "John 21:18-19", "summary": "Christ's words to Peter about being led where he does not wish to go are sometimes reflected upon in discussions of papal resignation, though they are traditionally understood by the Church primarily as a prophecy of Peter's eventual martyrdom rather than a text governing resignation." }
+      ]
+    },
+    {
+      "id": "death_afterlife_cremation",
+      "categoryId": "death_afterlife",
+      "question": "Is cremation permitted for Catholics?",
+      "shortAnswer": "The Church permits cremation provided it is not chosen as a denial of faith in the resurrection of the body. The Church still recommends the traditional practice of burial as more clearly expressing that faith, and cremated remains must be treated with the same respect as a body and laid to rest in a sacred place, not scattered, divided, or kept at home.",
+      "classification": "discipline",
+      "classificationNote": "Permission for cremation with conditions is a changeable discipline of funeral rites and reverence for the dead, reflecting pastoral prudence rather than a dogmatic definition.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2301", "summary": "The Church permits cremation unless it is chosen for reasons contrary to Christian teaching, and requires that cremated remains be preserved in a sacred place rather than scattered or kept as mementos." },
+        { "sourceType": "canon_law", "reference": "1176 §3", "summary": "Canon law states that the Church earnestly recommends the traditional practice of burial but does not prohibit cremation unless it was chosen for reasons contrary to Christian doctrine." },
+        { "sourceType": "scripture", "reference": "1 Corinthians 15:42-44", "summary": "Paul teaches that the body is sown perishable and raised imperishable, sown in weakness and raised in power, the scriptural basis for the Church's teaching that the manner of a body's disposal does not limit God's power to raise it." }
+      ]
+    },
+    {
+      "id": "death_afterlife_purgatory",
+      "categoryId": "death_afterlife",
+      "question": "What is purgatory?",
+      "shortAnswer": "Purgatory is the final purification of those who die in God's friendship but are not yet perfectly free from attachment to sin, cleansing them so they can enter the joy of heaven. It is entirely different from hell, since everyone in purgatory is definitively saved; it is a state of hope and purification, not of doubt or punishment for its own sake, and the prayers and Masses of the living can help those undergoing it.",
+      "classification": "dogma",
+      "classificationNote": "The existence of purgatory as a state of final purification was defined dogmatically at the Councils of Florence and Trent, in response to Protestant reformers who rejected it, making this a matter of defined doctrine rather than mere theological opinion.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1030-1032", "summary": "The Catechism teaches that all who die in God's grace but still imperfectly purified undergo purification to achieve the holiness necessary to enter heaven, and that the Church has formulated her teaching on purgatory especially at the Councils of Florence and Trent, encouraging almsgiving, indulgences, and works of penance on behalf of the dead." },
+        { "sourceType": "magisterial", "reference": "Council of Trent, Session 25 (1563)", "summary": "The Council of Trent defined that there is a purgatory and that the souls detained there are helped by the suffrages of the faithful, particularly the acceptable sacrifice of the altar, while cautioning against superstitious or excessive claims about it." },
+        { "sourceType": "scripture", "reference": "2 Maccabees 12:46; 1 Corinthians 3:11-15", "summary": "The account of Judas Maccabeus making atonement for the dead so they might be freed from sin, and Paul's description of a person's work being tested by fire with the person himself being saved 'but only as through fire,' are the classic scriptural texts underlying the doctrine of purgatory." }
+      ]
+    },
+    {
+      "id": "death_afterlife_suicide",
+      "categoryId": "death_afterlife",
+      "question": "Is suicide unforgivable?",
+      "shortAnswer": "No. While the Church teaches that suicide is gravely contrary to love of self, of neighbor, and of God, and is objectively a grave sin, she does not teach that any individual person who has died by suicide is condemned. Grave psychological disturbance, anguish, or fear of suffering can diminish a person's responsibility, and the Church entrusts persons who have taken their own lives to God's mercy, offering prayer for them and for their grieving families rather than despairing of their salvation.",
+      "classification": "doctrine",
+      "classificationNote": "The objective gravity of the act is settled teaching, but the Church has explicitly and deliberately moved away from any presumption about an individual's final judgment, entrusting that question entirely to God's mercy rather than making any pronouncement herself.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "2280-2283", "summary": "The Catechism teaches that everyone is responsible for their life before God who gave it, and that suicide contradicts the natural inclination to preserve life, but also states that grave psychological disturbances, anguish, or grave fear can diminish responsibility, and that the Church prays for persons who have taken their own lives, entrusting them to God's mercy since he alone can judge." },
+        { "sourceType": "aquinas", "reference": "ST II-II Q64 A5", "summary": "Aquinas taught that suicide is unlawful because it is contrary to the natural inclination to self-preservation, contrary to charity toward oneself, an offense against the community of which each person is a part, and an usurpation of God's sole authority over the passage from life to death." },
+        { "sourceType": "scripture", "reference": "Job 2:9-10; Romans 8:38-39", "summary": "Job's refusal to curse God despite catastrophic suffering, and Paul's assurance that nothing, not even death itself, can separate a person from the love of God in Christ, are texts often turned to for hope regarding those who have died by suicide, alongside the Church's confidence in God's mercy toward souls in extremity." }
+      ]
+    },
+    {
+      "id": "death_afterlife_praying_for_dead",
+      "categoryId": "death_afterlife",
+      "question": "Why does the Church pray for the dead?",
+      "shortAnswer": "The Church prays for the dead because those who have died in God's friendship but still need purification benefit from the prayers, Masses, and good works offered by the living, an expression of the communion of saints linking the Church on earth, in purgatory, and in heaven. This is not a matter of doubting whether the deceased is saved, but of assisting a soul already assured of heaven toward the completion of its purification.",
+      "classification": "doctrine",
+      "classificationNote": "The practice and theological basis of praying for the dead flows directly from settled doctrine on purgatory and the communion of saints.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "958; 1032", "summary": "The Catechism teaches that communion with the dead in no way weakens communion with the living but reinforces it, since the Church's prayers help the souls of the dead attain the beatific vision, and encourages Mass offerings, prayer, almsgiving, and works of penance on behalf of the dead." },
+        { "sourceType": "magisterial", "reference": "Council of Trent, Session 25 (1563)", "summary": "The Council of Trent taught that the souls in purgatory are helped by the suffrages of the faithful, and particularly by the acceptable sacrifice of the altar, and directed bishops to see that this sound doctrine be taught faithfully by preachers." },
+        { "sourceType": "scripture", "reference": "2 Maccabees 12:44-46", "summary": "The account of Judas Maccabeus taking up a collection to have sacrifice offered for fallen soldiers, described as a 'holy and pious thought' that they might be freed from their sin, is the primary Old Testament text the Church cites as precedent for praying and offering sacrifice for the dead." }
+      ]
+    },
+    {
+      "id": "death_afterlife_unbaptized_infants",
+      "categoryId": "death_afterlife",
+      "question": "What happens to infants who die without baptism?",
+      "shortAnswer": "The Church does not know with certainty and has never dogmatically defined an answer. Rather than teaching the older theological theory of limbo as settled doctrine, which it never was, the Church's current teaching, expressed in her funeral rites for such children, is to entrust them to the great mercy of God who desires all people to be saved, expressing solid grounds for hope that they attain eternal happiness even without sacramental baptism.",
+      "classification": "theological_opinion",
+      "classificationNote": "Limbo was always a theological hypothesis proposed by theologians to address a real gap, never a dogma or even an official doctrine of the Church; the Catechism's own approach is to entrust the question to hope in God's mercy rather than assert any specific outcome.",
+      "citations": [
+        { "sourceType": "ccc", "reference": "1261", "summary": "The Catechism states that regarding children who die without baptism, the Church can only entrust them to the mercy of God, as she does in her funeral rites for them, and that God's great mercy and his desire that all people be saved allow us to hope there is a way of salvation for such children." },
+        { "sourceType": "magisterial", "reference": "International Theological Commission, The Hope of Salvation for Infants Who Die Without Being Baptised (2007)", "summary": "The Commission, with papal approval for publication, concluded that limbo remained a possible theological opinion but that there are serious theological and liturgical grounds for hope that unbaptized infants who die are saved, without claiming certain knowledge either way." },
+        { "sourceType": "scripture", "reference": "1 Timothy 2:4; Mark 10:14", "summary": "Paul's statement that God desires all people to be saved, and Christ's welcoming of little children with the words 'let the children come to me,' are the scriptural texts most often cited as grounds for hope regarding infants who die without baptism." }
+      ]
+    }
+  ]
+}

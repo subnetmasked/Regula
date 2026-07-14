@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Regula</string>
+    <string name="welcome_subtitle">Catholic moral &amp; doctrinal reference</string>
+    <string name="welcome_footer">Fully offline. No tracking. Built for clarity of teaching.</string>
+    <string name="explore_topics">Explore Topics</string>
+    <string name="explore_subtitle">Browse by category</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Ask anything — search doctrine instantly</string>
+    <string name="search_results">Results</string>
+    <string name="results_count">%1$d matches found</string>
+    <string name="search_prompt">Type to search entries by question or answer.</string>
+    <string name="no_results">No matching entries found.</string>
+    <string name="clear_search">Clear search</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="category">Category</string>
+    <string name="entry_detail">Teaching</string>
+    <string name="entry_count">%1$d entries</string>
+    <string name="answer">Answer</string>
+    <string name="classification_note">Why this classification</string>
+    <string name="citations">Citations</string>
+    <string name="citations_subtitle">Paraphrased summaries from magisterial sources</string>
+</resources>
