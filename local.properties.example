@@ -1,0 +1,4 @@
+# Copy to `local.properties` and set your SDK path.
+# This file is safe to commit; `local.properties` is gitignored.
+
+sdk.dir=/path/to/Android/Sdk

@@ -1,0 +1,16 @@
+<p><b>Regula</b> is a free, fully offline Catholic moral and doctrinal reference for Android. Browse clear answers to everyday moral questions, see how each teaching is classified, and read paraphrased citations from magisterial sources — with no internet connection, no analytics, and no tracking.</p>
+
+<p><b>Features</b></p>
+<ul>
+<li>Eight topic categories — sacraments, sexual ethics, bioethics, daily moral life, social teaching, prayer, ecclesiology, and death &amp; afterlife</li>
+<li>Concise Q&amp;A entries with classification badges: dogma, doctrine, discipline, or theological opinion</li>
+<li>Citations from the Catechism, canon law, magisterial documents, Aquinas, and Scripture</li>
+<li>Full-text search across questions and answers</li>
+<li>Dark, readable Material 3 interface</li>
+</ul>
+
+<p><b>Privacy by design</b></p>
+<p>Regula requests no network permission. All content is bundled locally. There are no proprietary SDKs, no Firebase, and no Google Play Services dependency.</p>
+
+<p><b>Free software</b></p>
+<p>Regula is licensed under the GNU General Public License v3.0 or later.</p>

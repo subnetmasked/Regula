@@ -1,2 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.jar binary
+*.zip binary
+*.apk binary
+*.aab binary
+
+# Shell scripts must stay executable with LF
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+gradlew.bat text eol=crlf

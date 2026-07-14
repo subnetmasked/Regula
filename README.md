@@ -1,74 +1,242 @@
-# Regula
+<p align="center">
+  <img src="ICONS/files/regula-icon-512.png" alt="Regula icon" width="128" height="128">
+</p>
 
-Regula is an offline Catholic moral and doctrinal reference app for Android. It organizes teaching by category, classifies entries as dogma, doctrine, discipline, or theological opinion, and links each answer to magisterial citations — all stored locally with no network access.
+<h1 align="center">Regula</h1>
 
-## Features (v1.0)
+<p align="center">
+  <strong>Offline Catholic moral &amp; doctrinal reference for Android</strong>
+</p>
 
-- Browse eight categories of moral and doctrinal topics
-- Read concise answers with classification badges and explanatory notes
-- View citations grouped by source type (CCC, canon law, Aquinas, magisterial documents)
-- Search entries by question or answer text
-- Fully offline — no analytics, no tracking, no proprietary SDKs
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPLv3"></a>
+  <img src="https://img.shields.io/badge/Kotlin-2.1-purple?logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?logo=android&logoColor=white" alt="Jetpack Compose">
+  <img src="https://img.shields.io/badge/minSdk-26-green?logo=android&logoColor=white" alt="minSdk 26">
+  <img src="https://img.shields.io/badge/Network-none-success" alt="No network">
+  <img src="https://img.shields.io/badge/F--Droid-ready-orange" alt="F-Droid ready">
+</p>
 
-## Tech stack
+<p align="center">
+  Browse teaching by topic · Classify dogma, doctrine, discipline &amp; opinion · Search instantly · Cite the magisterium — all on-device, with no tracking.
+</p>
 
-- Kotlin, Jetpack Compose, Material 3
-- Room (SQLite) for local persistence
-- Navigation Compose
-- Gradle Kotlin DSL, single `app/` module
-- minSdk 26, compileSdk / targetSdk 36
+---
 
-## Content editing
+## Contents
 
-All topics, articles, and citations are defined in JSON — there is no in-app editor.
+- [Overview](#overview)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Privacy](#privacy)
+- [Content](#content)
+- [Build &amp; install](#build--install)
+- [F-Droid](#f-droid)
+- [Tech stack](#tech-stack)
+- [Project structure](#project-structure)
+- [License](#license)
 
-| What | File |
+---
+
+## Overview
+
+**Regula** helps Catholics find clear, concise answers to moral and doctrinal questions — organized by category, classified by binding force, and backed by paraphrased citations from magisterial sources.
+
+Everything lives on your device. The app has **no network permission**, no analytics, and no proprietary SDKs. It is built for clarity of teaching and for distribution on **[F-Droid](https://f-droid.org/)**.
+
+| | |
 |---|---|
-| **Edit this** | [`app/src/main/assets/content/content.json`](app/src/main/assets/content/content.json) |
+| **Version** | 1.0.0 (`versionCode` 2) |
+| **Categories** | 8 |
+| **Entries** | 40 Q&amp;A articles |
+| **Citations** | 119 source references |
+| **Package** | `org.regula.app` |
+
+---
+
+## Features
+
+### Browse by topic
+
+Eight curated categories cover the questions Catholics ask most often:
+
+| Category | Topics include |
+|----------|----------------|
+| Sacraments &amp; Liturgy | Non-Catholic weddings, confession seal, communion, baptism, holy days |
+| Sexual Ethics &amp; Marriage | NFP, cohabitation, annulment, IVF |
+| Bioethics &amp; Life Issues | Abortion, euthanasia, organ donation, vaccines |
+| Daily Moral Life | Lying, gambling, modesty, tattoos |
+| Social &amp; Economic Teaching | Just war, immigration, voting, usury |
+| Prayer &amp; Devotion | Indulgences, saints, private revelation, relics |
+| Ecclesiology &amp; Authority | Papal authority, schism, apostolic succession |
+| Death &amp; Afterlife | Cremation, purgatory, suicide, praying for the dead |
+
+### Classified teaching
+
+Every entry carries a **classification badge** — dogma, doctrine, discipline, or theological opinion — with a short note explaining *why* it is classified that way.
+
+### Magisterial citations
+
+Each answer links to up to three citations, grouped by source type:
+
+`CCC` · `Canon Law` · `Magisterial` · `Aquinas` · `Scripture`
+
+Summaries are paraphrased for readability; references point you to the original text.
+
+### Instant search
+
+Search across every question and answer from the welcome screen. No server, no delay — Room queries run locally in milliseconds.
+
+### Designed for clarity
+
+Dark gold Material 3 UI, glass cards, and readable typography — built for reference, not distraction.
+
+---
+
+## Screenshots
+
+| Welcome &amp; search | Entry detail | Citations |
+|:---:|:---:|:---:|
+| ![Welcome screen](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) | ![Entry detail](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) | ![Citations](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) |
+
+Store listing assets for F-Droid live in [`fastlane/metadata/android/en-US/`](fastlane/metadata/android/en-US/).
+
+---
+
+## Privacy
+
+Regula is **offline-first by architecture**, not by policy alone:
+
+| | |
+|---|---|
+| Network permission | **None** |
+| Analytics / crash reporters | **None** |
+| Firebase / Play Services | **None** |
+| In-app purchases / ads | **None** |
+| Data collection | **None** — all content is bundled in the APK |
+
+The release manifest contains no `INTERNET` permission. Your searches and browsing never leave the device.
+
+---
+
+## Content
+
+All doctrinal content is authored in JSON — there is no in-app editor.
+
+| Resource | Path |
+|----------|------|
+| **Shipped content** | [`app/src/main/assets/content/content.json`](app/src/main/assets/content/content.json) |
 | **Authoring guide** | [`content/README.md`](content/README.md) |
 | **JSON schema** | [`content/schema.json`](content/schema.json) |
 
 **Workflow:**
 
-1. Edit `content.json` (categories = topics, entries = articles, nested `citations`)
-2. Bump `"contentVersion"` so installed apps reload the database
-3. `./gradlew installDebug` — no uninstall needed
+1. Edit `content.json` (`categories` = topics, `entries` = articles, nested `citations`).
+2. Bump `"contentVersion"` so installed apps reload the Room database on next launch.
+3. Rebuild — no uninstall required.
 
-**Allowed values:**
+**Allowed enum values:**
 
-- `classification`: `dogma`, `doctrine`, `discipline`, `theological_opinion`
-- `sourceType`: `ccc`, `canon_law`, `aquinas`, `magisterial`, `scripture`
+- `classification`: `dogma` · `doctrine` · `discipline` · `theological_opinion`
+- `sourceType`: `ccc` · `canon_law` · `aquinas` · `magisterial` · `scripture`
 
-New categories get a default icon until you add a mapping in `CategoryVisuals.kt` (see `content/README.md`).
+New categories use a default icon until you add a mapping in [`CategoryVisuals.kt`](app/src/main/kotlin/org/regula/app/ui/components/CategoryVisuals.kt).
 
-## Prerequisites
+---
 
-- JDK 17 (required — newer JDK versions such as 25 are not yet supported by the Android Gradle Plugin)
-- Android SDK with API 36 platform installed
-- `ANDROID_HOME` (or `ANDROID_SDK_ROOT`) pointing to your SDK
+## Build & install
 
-## Build and run
+### Prerequisites
+
+- **JDK 17** — required (JDK 25+ is not yet supported by the Android Gradle Plugin)
+- **Android SDK** with API 36 platform
+- `ANDROID_HOME` or `ANDROID_SDK_ROOT` pointing to your SDK  
+  (see [`local.properties.example`](local.properties.example))
+
+### Debug (local testing)
 
 ```bash
+export JAVA_HOME=/usr/lib/jvm/temurin-17-jdk   # adjust path if needed
+
 ./gradlew assembleDebug
+./gradlew installDebug          # USB device or emulator
 ```
 
-Install on a connected device or emulator:
+APK: `app/build/outputs/apk/debug/app-debug.apk` — sideload to your phone for testing.
+
+### Release (F-Droid / production)
 
 ```bash
-./gradlew installDebug
+./gradlew :app:assembleRelease
 ```
 
-The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
+APK: `app/build/outputs/apk/release/app-release-unsigned.apk`
 
-## FOSS / F-Droid design
+F-Droid builds from source and signs with their own key; you do **not** commit a release keystore.
 
-Regula uses only FOSS AndroidX dependencies. There is no Firebase, Google Play Services, analytics, or network permission in the manifest. The app is designed for eventual F-Droid distribution.
+---
+
+## F-Droid
+
+Regula is built for [F-Droid](https://f-droid.org/) distribution: FOSS-only dependencies, no network permission, GPLv3, and store metadata in the repo.
+
+```
+fastlane/metadata/android/en-US/
+├── title.txt
+├── short_description.txt
+├── full_description.txt
+├── changelogs/<versionCode>.txt
+└── images/
+    ├── icon.png
+    └── phoneScreenshots/1.png … 3.png
+```
+
+F-Droid builds from a tagged release (`./gradlew :app:assembleRelease`) and signs the APK with their key.
+
+---
+
+## Tech stack
+
+| Layer | Choice |
+|-------|--------|
+| Language | Kotlin 2.1 |
+| UI | Jetpack Compose, Material 3 |
+| Persistence | Room (SQLite) |
+| Navigation | Navigation Compose |
+| Content | JSON assets → version-aware re-seed on startup |
+| Build | Gradle Kotlin DSL, single `:app` module |
+| SDK | minSdk 26 · compileSdk / targetSdk 36 |
+
+Dependencies are **AndroidX only** — no proprietary libraries.
+
+---
+
+## Project structure
+
+```
+Regula/
+├── app/src/main/
+│   ├── assets/content/content.json   # doctrinal database (source of truth)
+│   ├── kotlin/org/regula/app/        # application code
+│   └── res/                          # theme, launcher icons
+├── content/                          # authoring docs + JSON schema
+├── fastlane/metadata/android/en-US/  # F-Droid store listing
+├── ICONS/                            # source icon assets
+└── LICENSE                           # GPLv3
+```
+
+---
 
 ## License
 
-Copyright (C) 2026 Regula contributors
+Copyright © 2026 Regula contributors
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Regula is free software: you can redistribute it and/or modify it under the terms of the **GNU General Public License v3.0 or later**.
 
-See [LICENSE](LICENSE) for the full GPLv3 text.
+See [`LICENSE`](LICENSE) for the full text.
+
+---
+
+<p align="center">
+  <sub>Built for clarity of teaching · Fully offline · Free as in freedom</sub>
+</p>

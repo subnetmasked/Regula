@@ -49,31 +49,38 @@ class RegulaViewModel(
             initialValue = emptyList(),
         )
 
+    private val entriesForCategoryCache = mutableMapOf<String, StateFlow<List<Entry>>>()
+    private val entryDetailCache = mutableMapOf<String, StateFlow<EntryDetail?>>()
+
     fun entriesForCategory(categoryId: String): StateFlow<List<Entry>> {
-        return entryDao.getByCategory(categoryId)
-            .stateIn(
-                scope = viewModelScope,
-                started = SharingStarted.WhileSubscribed(5_000),
-                initialValue = emptyList(),
-            )
+        return entriesForCategoryCache.getOrPut(categoryId) {
+            entryDao.getByCategory(categoryId)
+                .stateIn(
+                    scope = viewModelScope,
+                    started = SharingStarted.WhileSubscribed(5_000),
+                    initialValue = emptyList(),
+                )
+        }
     }
 
     fun entryDetail(entryId: String): StateFlow<EntryDetail?> {
-        return combine(
-            entryDao.getByIdFlow(entryId),
-            citationDao.getByEntry(entryId),
-        ) { entry, citations ->
-            entry?.let {
-                EntryDetail(
-                    entry = it,
-                    citationsBySource = citations.groupBy { citation -> citation.sourceType },
-                )
-            }
-        }.stateIn(
-            scope = viewModelScope,
-            started = SharingStarted.WhileSubscribed(5_000),
-            initialValue = null,
-        )
+        return entryDetailCache.getOrPut(entryId) {
+            combine(
+                entryDao.getByIdFlow(entryId),
+                citationDao.getByEntry(entryId),
+            ) { entry, citations ->
+                entry?.let {
+                    EntryDetail(
+                        entry = it,
+                        citationsBySource = citations.groupBy { citation -> citation.sourceType },
+                    )
+                }
+            }.stateIn(
+                scope = viewModelScope,
+                started = SharingStarted.WhileSubscribed(5_000),
+                initialValue = null,
+            )
+        }
     }
 
     fun updateSearchQuery(query: String) {

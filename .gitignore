@@ -1,13 +1,101 @@
+# ── Gradle / Android build ────────────────────────────────────────────────────
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle local config (SDK path — never commit)
+local.properties
+*.properties.local
+
+# Android Studio / IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea
-.DS_Store
-/build
-/app/build
-/captures
-.externalNativeBuild
-.cxx
+*.ipr
+*.iws
+.idea_modules/
+out/
+captures/
+.navigation/
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# NDK / native
+.externalNativeBuild/
+.cxx/
+obj/
+
+# Build outputs
 *.apk
 *.ap_
 *.aab
+*.dex
+*.class
+bin/
+gen/
+
+# Signing — never commit keystores or signing configs
+*.jks
+*.keystore
+*.p12
+*.pfx
+signing.properties
+keystore.properties
+release.keystore
+debug.keystore
+
+# Google / Firebase (not used, but ignore if ever added)
+google-services.json
+GoogleService-Info.plist
+
+# OS junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & crash dumps
+*.log
+*.hprof
+hs_err_pid*
+
+# Fastlane generated (keep metadata/, ignore reports)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Internal F-Droid packaging notes (local only — not for GitHub)
+F-DROID.md
+.fdroid-checklist.md
+fdroid-prep/
+**/phoneScreenshots/README.md
+
+# Backup / swap
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
+test-results/
+*.exec
+
+# Misc IDE
+.vscode/
+*.sublime-*

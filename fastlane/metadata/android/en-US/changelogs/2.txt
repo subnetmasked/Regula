@@ -1,0 +1,6 @@
+Initial public release (v1.0.0).
+
+• 8 categories, 40 Q&A entries, 119 magisterial citations
+• Classification badges with explanatory notes
+• Full-text search
+• Fully offline — no network permission
